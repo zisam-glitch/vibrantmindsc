@@ -113,8 +113,8 @@ export default async function About() {
             <h3 className="heading-2 text-center mb-16">
               <span className="font-light">Package /</span> Paquete
             </h3>
-            <div className="grid grid-cols-2 gap-20">
-              <div className="p-16 shadow-lg bg-neutral-100 rounded-3xl">
+            <div className="grid md:grid-cols-2 grid-cols-1 gap-10 md:gap-20">
+              <div className="md:p-16 p-6 shadow-lg bg-neutral-100 rounded-3xl">
                 <h4 className="text-center w-full text-neutral-950 dark:text-neutral-dark-950 text-3xl font-bold leading-snug ">
                   Basic Package
                 </h4>
@@ -129,7 +129,7 @@ export default async function About() {
                   STEM Activities / Actividades STEM <br />
                   <b>2 Books / 2 Libros</b>{" "}
                 </p>
-                <div className="w-1/2 mx-auto pt-4">
+                <div className="w-2/3 md:w-1/2 mx-auto pt-4">
                   <a
                     target="_blank"
                     href="https://checkout.square.site/merchant/MLD0DXNJ1MW6V/checkout/QXXKDWGB77UH7YFPJOCAHQGT"
@@ -142,7 +142,7 @@ export default async function About() {
                   </a>
                 </div>
               </div>
-              <div className="p-16 shadow-lg bg-[#e7b636] rounded-3xl">
+              <div className="md:p-16 p-6 shadow-lg bg-[#e7b636] rounded-3xl">
                 <h4 className="text-center w-full text-neutral-950 dark:text-neutral-dark-950 text-3xl font-bold leading-snug ">
                   Premium Package
                 </h4>
@@ -157,7 +157,7 @@ export default async function About() {
                   STEM Activities / Actividades STEM <br />
                   <b> 6-8 Books / 6-8 Libros</b>{" "}
                 </p>
-                <div className="w-1/2 mx-auto pt-4">
+                <div className="w-2/3 md:w-1/2 mx-auto pt-4">
                   <a
                     target="_blank"
                     href="https://checkout.square.site/merchant/MLD0DXNJ1MW6V/checkout/MYOG5WMKSBX664PH5JFXBQ66"
