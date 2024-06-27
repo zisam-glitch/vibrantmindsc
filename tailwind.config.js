@@ -57,11 +57,10 @@ module.exports = {
                 950: '#FFFFFF',
             },
         },
-
         fontFamily: {
             'sans': ['Inter', 'sans-serif'],
+            'custom': ['MyCustomFont', 'sans-serif'],  // Add your custom font family here
         },
-
         fontSize: {
             'xs': ['12px', '12px'],
             'sm': ['14px', '14px'],
@@ -77,7 +76,6 @@ module.exports = {
             '8xl': ['91px', '120px'],
             '9xl': ['100px', '110px'],
         },
-
         fontWeight: {
             'light': 300,
             'normal': 400,
@@ -87,7 +85,6 @@ module.exports = {
             'extrabold': 800,
             'black': 900,
         },
-
         extend: {
             boxShadow: {
                 'sm': '0px 0px 60px 0px rgba(0, 0, 0, 0.05)',

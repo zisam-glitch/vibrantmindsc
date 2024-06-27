@@ -5,25 +5,22 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 const swiperOptions = {
   modules: [Autoplay, Pagination, Navigation],
-  slidesPerView: 1,
   spaceBetween: 30,
   loop: true,
-  autoplay: {
-    delay: 3000,
-  },
+
   centeredSlides: true,
   breakpoints: {
     1200: {
-      slidesPerView: 3,
+      slidesPerView: 4,
     },
     992: {
       slidesPerView: 4,
     },
     768: {
-      slidesPerView: 2,
+      slidesPerView: 4,
     },
     576: {
-      slidesPerView: 1,
+      slidesPerView: 4,
     },
     0: {
       slidesPerView: 1,
@@ -34,78 +31,54 @@ const swiperOptions = {
 export default function Section1() {
   return (
     <>
-      <section className=" pt-4 pb-28 flex flex-col gap-8 relative">
-        <div className="">
-         
-          <p className="text-lg md:text-lg pb-6 text-neutral-950 dark:text-neutral-dark-950 font-light text-center z-10 relative">
-            Unlocking Wonder, One Month at a Time: Your Toddler's Path to
-            Discovery!{" "}
-          </p>
-        </div>
-        <div className=" z-10 relative">
-          <div className="swiper-container post-slider-6">
-            <Swiper {...swiperOptions} className="swiper-wrapper pt-4">
-              <SwiperSlide className="swiper-slide hover-up">
-                <div className="w-full h-64 relative rounded-3xl overflow-hidden">
-                  <Link href="/category">
-                    <img
-                      className="left-0 top-0 absolute rounded-3xl"
-                      src="https://res.cloudinary.com/db1i46uiv/image/upload/v1718366074/rs_w_1535_m_4_a5jnes.jpg"
-                    />
-                  </Link>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide className="swiper-slide hover-up">
-                <div className="w-full h-64 relative rounded-3xl overflow-hidden">
-                  <Link href="/category">
-                    <img
-                      className="left-0 top-0  h-64 absolute rounded-3xl"
-                      src="https://res.cloudinary.com/db1i46uiv/image/upload/v1718366072/rs_w_1535_m_1_emttdl.jpg"
-                    />
-                  </Link>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide className="swiper-slide hover-up">
-                <div className="w-full h-64 relative rounded-3xl overflow-hidden">
-                  <Link href="/category">
-                    <img
-                      className="left-0 top-0 absolute rounded-3xl"
-                      src="https://res.cloudinary.com/db1i46uiv/image/upload/v1718366072/rs_w_1535_m_eqcdq1.jpg"
-                    />
-                  </Link>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide className="swiper-slide hover-up">
-                <div className="w-full h-64 relative rounded-3xl overflow-hidden">
-                  <Link href="/category">
-                    <img
-                      className="left-0 top-0 absolute rounded-3xl"
-                      src="https://res.cloudinary.com/db1i46uiv/image/upload/v1718366072/rs_w_1535_m_2_hk66wp.jpg"
-                    />
-                  </Link>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide className="swiper-slide hover-up">
-                <div className="w-full h-64 relative rounded-3xl overflow-hidden">
-                  <Link href="/category">
-                    <img
-                      className="left-0 top-0 absolute rounded-3xl"
-                      src="https://res.cloudinary.com/db1i46uiv/image/upload/v1718366071/rs_w_1535_m_5_kxdqec.jpg"
-                    />
-                  </Link>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide className="swiper-slide hover-up">
-                <div className="w-full h-64 relative rounded-3xl overflow-hidden">
-                  <Link href="/category">
-                    <img
-                      className="left-0 top-0 absolute rounded-3xl"
-                      src="https://res.cloudinary.com/db1i46uiv/image/upload/v1718366071/rs_w_1535_m_3_u9dout.jpg"
-                    />
-                  </Link>
-                </div>
-              </SwiperSlide>
-            </Swiper>
+      <section className="bg-[#FFDE59] pt-20 pb-32 flex flex-col gap-8 relative">
+        <div className="container px-10 gap-0 md:gap-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+          <div>
+            <div className="w-full h-48 relative rounded overflow-hidden">
+              <img
+                className="left-0 object-cover w-full h-full  top-0 absolute rounded"
+                src="https://res.cloudinary.com/db1i46uiv/image/upload/v1718366072/rs_w_1535_m_2_hk66wp.jpg"
+              />
+            </div>
+            <h2 className="font-custom pt-6 text-center text-2xl font-bold text-black">
+              Fun Activiated
+            </h2>
+          </div>
+          <div>
+            {" "}
+            <div className="w-full h-48 relative rounded overflow-hidden">
+              <img
+                className="left-0 object-cover w-full h-full  top-0 absolute rounded"
+                src="https://res.cloudinary.com/db1i46uiv/image/upload/v1718366071/rs_w_1535_m_3_u9dout.jpg"
+              />
+            </div>
+            <h2 className="font-custom pt-6 text-center text-2xl font-bold text-black">
+              Literacy Riched{" "}
+            </h2>
+          </div>
+          <div>
+            {" "}
+            <div className="w-full h-48 relative rounded overflow-hidden">
+              <img
+                className="left-0 object-cover w-full h-full  top-0 absolute rounded"
+                src="https://res.cloudinary.com/db1i46uiv/image/upload/v1718366072/rs_w_1535_m_eqcdq1.jpg"
+              />
+            </div>
+            <h2 className="font-custom pt-6 text-center text-2xl font-bold text-black">
+              STEM Inspired{" "}
+            </h2>{" "}
+          </div>
+          <div>
+            {" "}
+            <div className="w-full h-48 relative rounded overflow-hidden">
+              <img
+                className="left-0 object-cover w-full h-full top-0 absolute rounded"
+                src="https://res.cloudinary.com/db1i46uiv/image/upload/v1718366072/rs_w_1535_m_1_emttdl.jpg"
+              />
+            </div>
+            <h2 className="pt-6 font-custom text-center text-2xl font-bold text-black">
+              Math-Infused
+            </h2>
           </div>
         </div>
       </section>

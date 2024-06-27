@@ -10,24 +10,24 @@ export default function Menu() {
                 <Link className={router.pathname == "/" ? "active" : ""}>Home Default</Link>
                 <Link className={router.pathname == "/index-2" ? "active" : ""}>Home Interior</Link>
             </ul> */}
-      <ul className="xl:flex hidden">
+      <ul className="xl:flex prata-regular  hidden">
         <li className="relative group">
-          <Link className="menu-item px-6" href="/">
+          <Link className="menu-item px-6  text-[#fff] text-2xl " href="/">
             Home
           </Link>
         </li>
         <li className="relative group">
-          <Link className="menu-item px-6" href="/providers-curriculum">
+          <Link className="menu-item px-6  text-[#fff] text-2xl" href="/providers-curriculum">
             Providers Curriculum
           </Link>
         </li>
         <li className="relative group">
-          <Link className="menu-item px-6" href="/parents-curriculum">
+          <Link className="menu-item px-6  text-[#fff] text-2xl" href="/parents-curriculum">
             Parents Curriculum
           </Link>
         </li>
         <li className="group">
-          <Link href="/blogs" className="menu-item px-6 group-hover:border-white">
+          <Link href="/blogs" className="menu-item px-6  text-[#fff] text-2xl group-hover:border-white">
             Blog
           </Link>
           {/* MEGA MENU CONTENT */}
@@ -173,7 +173,7 @@ export default function Menu() {
           {/* END MEGA MENU CONTENT */}
         </li>
         <li className="relative">
-          <Link href="/contact" className="menu-item px-6">
+          <Link href="/contact" className="menu-item px-6  text-[#fff] text-2xl">
             Contact
           </Link>
         </li>
