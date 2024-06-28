@@ -27,8 +27,8 @@ export default function Menu() {
           </Link>
         </li>
         <li className="group">
-          <Link href="/blogs" className="menu-item px-6  text-[#fff] text-2xl group-hover:border-white">
-            Blog
+          <Link href="/child-box" className="menu-item px-6  text-[#fff] text-2xl group-hover:border-white">
+          Clild Box
           </Link>
           {/* MEGA MENU CONTENT */}
           {/* <div className="w-full px-12 py-12 rounded-2xl bg-neutral-0 dark:bg-neutral-dark-0 shadow-sm absolute top-full left-0 mt-8 opacity-0 invisible group-hover:opacity-100 group-hover:visible group-hover:mt-4 transition-all duration-500">

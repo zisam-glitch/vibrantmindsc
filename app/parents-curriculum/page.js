@@ -9,7 +9,6 @@ export default async function Home2() {
             <Layout noHeaderBg>
                 <Hero />
                 <Section3 />
-                <Section4/>
             </Layout>
         </>
     )

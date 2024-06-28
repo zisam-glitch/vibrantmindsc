@@ -7,14 +7,15 @@ export default async function About() {
         <section className="w-full">
           <img
             className="w-full"
-            src="https://res.cloudinary.com/db1i46uiv/image/upload/v1719532352/Copy_of_Blue_Print_for_webpage_1366_x_440_px_1_blnuot.png"
+            src="https://res.cloudinary.com/db1i46uiv/image/upload/v1719533196/Copy_of_Blue_Print_for_webpage_1366_x_440_px_2_unxqtb.png"
             alt=""
           />
         
         </section>
-        <section className="container px-10 py-20">
+        <section className="container px-10 pb-32 pt-20">
         <img
-            src="https://res.cloudinary.com/db1i46uiv/image/upload/v1719532974/Copy_of_Blue_Print_for_webpage_1366_x_440_px_1366_x_977_px_asrbj1.png"
+        className="w-full"
+            src="https://res.cloudinary.com/db1i46uiv/image/upload/v1719533453/Copy_of_Blue_Print_for_webpage_1000_x_754_px_5_jrbcd1.png"
             alt=""
           />
         </section>

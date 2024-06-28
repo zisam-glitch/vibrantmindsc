@@ -1,12 +1,25 @@
 import Link from "next/link";
 import ThemeSwitch from "../elements/ThemeSwitch";
-import Language from "./Language";
+import { useEffect } from "react";
 import Menu from "./Menu";
 import MobileMenu from "./MobileMenu";
 import Search from "./Search";
 import { IoSearch, IoPerson, IoCartOutline } from "react-icons/io5";
 
 export default function Header1({ scroll, isMobileMenu, handleMobileMenu }) {
+  useEffect(() => {
+ 
+    // Disable text selection for elements
+    // with class "no-select"
+    const noSelectElements =
+        document.querySelectorAll(".no-select");
+    noSelectElements.forEach((element) => {
+        element.style.webkitUserSelect = "none";
+        element.style.mozUserSelect = "none";
+        element.style.msUserSelect = "none";
+        element.style.userSelect = "none";
+    });
+}, []);
   return (
     <>
       <header
